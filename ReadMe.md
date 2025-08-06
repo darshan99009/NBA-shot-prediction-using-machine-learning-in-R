@@ -7,7 +7,7 @@ This project uses Decision Tree and Random Forest models to predict whether an N
 
 - Student: Darshan Gowda S (20221IST0055)
 - Guide: Dr. A.K. Sampath
-- Course: R Programming for Data Science
+- Course: R Programming for Data Science(CSE3035)
 - Institution: Presidency University
 - Dataset: Kaggle – NBA Shot Logs (<https://www.kaggle.com/datasets/dansbecker/nba-shot-logs>)
 -----
@@ -44,13 +44,17 @@ The dataset contains over 100,000 rows of player shot attempts with features lik
 
 **Exploratory Data Analysis (EDA)**
 
-1. ![](images/Aspose.Words.675c289e-91cf-43e3-8c3d-40200a8ad260.001.png)Shot Distance Distribution\
+1. ![](Aspose.Words.675c289e-91cf-43e3-8c3d-40200a8ad260.001.png)Shot Distance Distribution\
    Description: This graph visualizes the distribution of shots taken at different distances and how success rates drop with longer shots.
 
 
 
 
-1. ![](images/Aspose.Words.675c289e-91cf-43e3-8c3d-40200a8ad260.002.png)Defender Distance vs Shot Success\
+
+
+
+
+1. ![](Aspose.Words.675c289e-91cf-43e3-8c3d-40200a8ad260.002.png)Defender Distance vs Shot Success\
    Description: This line chart shows that the farther the defender, the higher the success rate of the shot.
 
 
@@ -60,17 +64,43 @@ The dataset contains over 100,000 rows of player shot attempts with features lik
 
 
 
-1. ![](images/Aspose.Words.675c289e-91cf-43e3-8c3d-40200a8ad260.003.png)Game Clock vs Shot Success\
+
+
+
+
+
+
+.
+1. ![](Aspose.Words.675c289e-91cf-43e3-8c3d-40200a8ad260.003.png)Game Clock vs Shot Success\
    Description: Analyzes whether players are more or less successful as the quarter runs down.
 
 
 
 
 
-1. ![](images/Aspose.Words.675c289e-91cf-43e3-8c3d-40200a8ad260.004.png)Feature Importance (Random Forest)\
+
+
+
+
+
+
+1. ![](Aspose.Words.675c289e-91cf-43e3-8c3d-40200a8ad260.004.png)Feature Importance (Random Forest)\
    Description: Bar plot showing which features contributed most to the shot success prediction.
-1. ![](images/Aspose.Words.675c289e-91cf-43e3-8c3d-40200a8ad260.005.png)ROC Curve Comparison\
+
+
+
+
+
+
+   
+1. ![](Aspose.Words.675c289e-91cf-43e3-8c3d-40200a8ad260.005.png)ROC Curve Comparison\
    Description: Compares Decision Tree and Random Forest models using ROC curves.
+
+
+
+
+
+
 
 
 
@@ -86,11 +116,7 @@ Two models were trained using the caret package:
 |Specificity|36\.30%|42\.66%|
 |Kappa Score|0\.1758|0\.1438|
 
-Confusion Matrix – Decision Tree\
-[Insert image: confusion\_matrix\_decision\_tree.png]
 
-Confusion Matrix – Random Forest\
-[Insert image: confusion\_matrix\_random\_forest.png]
 
 -----
 **Conclusion**
@@ -104,5 +130,6 @@ Confusion Matrix – Random Forest\
 - Integrate more player-level stats (e.g., fatigue, play type)
 - Use more advanced models like XGBoost
 - Build a web interface to predict shot success in real time
+
 
 
